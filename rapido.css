@@ -1,0 +1,329 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+                    
+}
+nav{
+    /* border: 2px solid red; */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav section{
+    /* border: 2px solid green; */
+    width: 80%;
+    display: flex;
+    gap: 660px;
+}
+nav section>div{
+    /* border: 2px solid blue; */
+    align-content: center;
+}
+div ol{
+    list-style: none;
+    display: flex;
+    gap: 41px;
+    align-content: center;
+}
+ol li{
+    font-size: 23px;
+    font-weight: 400;
+}
+main{
+    /* border: 2px solid green; */
+    height: 530px;
+    background: url("./Assests/backgorund1.png") center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div{
+    /* border: 2px solid darkblue; */
+    height: 400px;
+    width: 80%; 
+}
+main div>article{
+    /* border: 2px solid greenyellow; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+div article>h1{
+    font-size: 50px;
+    font-weight: 900;
+    /* border: 2px solid blueviolet; */
+    width: 47%;
+}
+div input{
+    /* border: 2px solid coral; */
+    height: 70px;
+    width: 47%;
+    font-size: 20px;
+    border-radius: 8px;
+}
+div button{
+    /* border: 2px solid yellowgreen; */
+    border-radius: 15px;
+    height: 68px;
+    width: 47%;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: gold;
+}
+#sec1{
+    /* border: 2px solid magenta; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec1 article{
+    /* border: 2px solid darkcyan; */
+    height: 550px;
+    width: 77%; 
+}
+#sec1 h1{
+    font-size: 50px;
+    font-weight: 900;
+    /* border: 2px solid blueviolet; */
+}
+font{
+    text-decoration:  2px underline gold;
+    text-decoration-style: solid;
+}
+#sec1 aside{
+    /* border: 2px solid salmon; */
+    display: grid;
+    height: 400px;
+    /* width: 500px; */
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 110px;
+}
+#sec1 aside>div{
+    /* border: 2px solid mediumseagreen; */
+    height: 175px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+#sec1 img{
+    /* border: 2px solid grey; */
+    border-radius: 15px;
+    height: 125px;    
+}
+#sec2{
+    /* border: 2px solid gold; */
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(246, 247, 249);
+}
+#sec2 article{
+    /* border: 2px solid maroon; */
+    height: 600px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec2 article>div{
+    /* border: 2px solid hotpink; */
+    height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+#sec2 #div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+#div1 h1{
+    /* border: 2px solid mediumblue; */
+    font-size: 50px;
+    font-weight: 900;
+    width: 100%;
+}
+#div1 p{
+    /* border: 2px solid saddlebrown; */
+    font-size: 40px;
+    font-weight: 500;
+    width: 100%;
+}
+#sec2 #div2>img,#div3>img{
+    height: 480px;
+}
+#b1{
+    height: 50px;
+    width: 220px;
+    color: white;
+    background-color: black;
+    /* font-size: 30px; */
+    border-radius: 35px;
+    align-content: start;
+}
+#div1 #b1>img{
+    height: 20px;
+    color: white;
+    fill: white;
+}
+#div4 h1{
+    /* border: 2px solid mediumblue; */
+    font-size: 50px;
+    font-weight: 900;
+    width: 100%;
+}
+#div4 p{
+    /* border: 2px solid saddlebrown; */
+    font-size: 40px;
+    font-weight: 500;
+    width: 100%;
+}
+#b1,#b2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b2{
+    height: 50px;
+    width: 220px;
+    color: white;
+    background-color: black;
+    /* font-size: 30px; */
+    border-radius: 35px;
+    align-content: start;
+}
+#div2 #b2>img{
+    /* height: 0px; */
+    color: white;
+    fill: white;
+}
+#sec2 #div4{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+aside{
+    /* border: 2px solid darkturquoise; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside article{
+    /* border: 2px solid blue; */
+    height: 450px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+aside article img{
+    height: 400px;
+    text-align: center;
+}
+#fot h1{
+    /* border: 2px solid mediumblue; */
+    font-size: 50px;
+    font-weight: 900;
+    width: 100%;
+}
+#fot p{
+    /* border: 2px solid saddlebrown; */
+    font-size: 40px;
+    font-weight: 500;
+    width: 100%;
+}
+#bn{
+    background-color: white;
+    border: 0px;
+    color: blue;
+}
+#fot2 img{
+    text-align: center;
+}
+footer{
+    /* border: 2px solid brown; */
+    height: 800px;
+}
+footer h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+footer section{
+    /* border: 2px solid greenyellow; */
+    height: 380px;
+    background-color: black;
+    fill: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer article{
+    /* border: 2px solid green; */
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 30px; */
+}
+footer article div{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid; */
+    font-size: 30px;
+    font-weight: 500;
+}
+footer article img{
+    height: 100px;
+    width: 100px;
+}
+footer aside{
+    /* border: 2px solid plum; */
+    height: 200px;
+}
+footer aside div{
+    /* border: 2px solid hotpink; */
+    width: 700px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer aside div img{
+    height: 110px;
+}
+header{
+    /* border: 2px solid hotpink; */
+    display: flex;
+    flex-direction: column;
+}
+#dd{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: start;
+    height: 500px;
+    width: 100%;
+}
+#tab{
+    /* border: 2px solid royalblue; */
+    height: 400px;
+    width: 1000px;
+    font-size: 25px;
+}
